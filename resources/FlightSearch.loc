@@ -1,0 +1,2 @@
+tabview.menu.flightsearchpage = {\"locator\":\"#bluemenu\",\"desc\":\"menu bar\"}
+container.flights.Flightslistcomp = {\"locator\":\"css=.flightcont\",\"desc\":\"flights list\"}

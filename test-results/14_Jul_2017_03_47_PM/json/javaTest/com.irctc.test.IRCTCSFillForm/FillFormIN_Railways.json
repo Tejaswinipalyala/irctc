@@ -1,0 +1,4389 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "get",
+      "args": [
+        "{url=https://www.air.irctc.co.in/IndianRailways/}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 3088
+    },
+    {
+      "commandName": "maximizeWindow",
+      "args": [
+        "{windowHandle=current}"
+      ],
+      "result": "null",
+      "subLogs": [],
+      "duration": 1189
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "getTitle",
+      "args": [
+        "{}"
+      ],
+      "result": "IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight",
+      "subLogs": [],
+      "duration": 10
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=//a[text ()='LTC'], using=xpath}"
+      ],
+      "result": "[id: 0.4335700059851939-1]",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text ()='LTC'], using=xpath}"
+      ],
+      "result": "id: 0.4335700059851939-1",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.xpath: //a[text ()='LTC']",
+        "{\"id\":\"0.4335700059851939-1\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//a[text ()='LTC'], using=xpath}"
+      ],
+      "result": "id: 0.4335700059851939-1",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //a[text ()='LTC']",
+        "{\"id\":\"0.4335700059851939-1\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 64
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#origin, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-2",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.cssSelector: #origin",
+        "{\"id\":\"0.4335700059851939-2\",\"value\":[\"Hyderabad\",{},{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 165
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#destination, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-3",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "sendKeysToElement",
+      "args": [
+        "By.cssSelector: #destination",
+        "{\"id\":\"0.4335700059851939-3\",\"value\":[\"pune\",{},{}]}"
+      ],
+      "result": "sendKeysToElement:null",
+      "subLogs": [],
+      "duration": 86
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//input[@id='departDate']/following-sibling::img, using=xpath}"
+      ],
+      "result": "id: 0.4335700059851939-4",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //input[@id='departDate']/following-sibling::img",
+        "{\"id\":\"0.4335700059851939-4\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 84
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[class='ui-datepicker-group ui-datepicker-group-first'], using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-5",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: [class='ui-datepicker-group ui-datepicker-group-first']",
+        "{\"using\":\"css selector\",\"id\":\"0.4335700059851939-5\",\"value\":\".ui-datepicker-year\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-6",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-datepicker-year",
+        "{\"id\":\"0.4335700059851939-6\"}"
+      ],
+      "result": "getElementText:2017",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[class='ui-datepicker-group ui-datepicker-group-first'], using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-5",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: [class='ui-datepicker-group ui-datepicker-group-first']",
+        "{\"using\":\"css selector\",\"id\":\"0.4335700059851939-5\",\"value\":\".ui-datepicker-month\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-7",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-datepicker-month",
+        "{\"id\":\"0.4335700059851939-7\"}"
+      ],
+      "result": "getElementText:July",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=[class='ui-datepicker-group ui-datepicker-group-first'], using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-5",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElements",
+      "args": [
+        "By.cssSelector: [class='ui-datepicker-group ui-datepicker-group-first']",
+        "{\"using\":\"css selector\",\"id\":\"0.4335700059851939-5\",\"value\":\".ui-state-default\"}"
+      ],
+      "result": "findChildElements:[id: 0.4335700059851939-8, id: 0.4335700059851939-9, id: 0.4335700059851939-10, id: 0.4335700059851939-11, id: 0.4335700059851939-12, id: 0.4335700059851939-13, id: 0.4335700059851939-14, id: 0.4335700059851939-15, id: 0.4335700059851939-16, id: 0.4335700059851939-17, id: 0.4335700059851939-18, id: 0.4335700059851939-19, id: 0.4335700059851939-20, id: 0.4335700059851939-21, id: 0.4335700059851939-22, id: 0.4335700059851939-23, id: 0.4335700059851939-24, id: 0.4335700059851939-25, id: 0.4335700059851939-26, id: 0.4335700059851939-27, id: 0.4335700059851939-28, id: 0.4335700059851939-29, id: 0.4335700059851939-30, id: 0.4335700059851939-31, id: 0.4335700059851939-32, id: 0.4335700059851939-33, id: 0.4335700059851939-34, id: 0.4335700059851939-35, id: 0.4335700059851939-36, id: 0.4335700059851939-37, id: 0.4335700059851939-38]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-8\"}"
+      ],
+      "result": "getElementText:1",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-9\"}"
+      ],
+      "result": "getElementText:2",
+      "subLogs": [],
+      "duration": 68
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-10\"}"
+      ],
+      "result": "getElementText:3",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-11\"}"
+      ],
+      "result": "getElementText:4",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-12\"}"
+      ],
+      "result": "getElementText:5",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-13\"}"
+      ],
+      "result": "getElementText:6",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-14\"}"
+      ],
+      "result": "getElementText:7",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-15\"}"
+      ],
+      "result": "getElementText:8",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-16\"}"
+      ],
+      "result": "getElementText:9",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-17\"}"
+      ],
+      "result": "getElementText:10",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-18\"}"
+      ],
+      "result": "getElementText:11",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-19\"}"
+      ],
+      "result": "getElementText:12",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-20\"}"
+      ],
+      "result": "getElementText:13",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-21\"}"
+      ],
+      "result": "getElementText:14",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-22\"}"
+      ],
+      "result": "getElementText:15",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-23\"}"
+      ],
+      "result": "getElementText:16",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-24\"}"
+      ],
+      "result": "getElementText:17",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-25\"}"
+      ],
+      "result": "getElementText:18",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-26\"}"
+      ],
+      "result": "getElementText:19",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-27\"}"
+      ],
+      "result": "getElementText:20",
+      "subLogs": [],
+      "duration": 103
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-28\"}"
+      ],
+      "result": "getElementText:21",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-29\"}"
+      ],
+      "result": "getElementText:22",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-30\"}"
+      ],
+      "result": "getElementText:23",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-31\"}"
+      ],
+      "result": "getElementText:24",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-32\"}"
+      ],
+      "result": "getElementText:25",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-33\"}"
+      ],
+      "result": "getElementText:26",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-34\"}"
+      ],
+      "result": "getElementText:27",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-35\"}"
+      ],
+      "result": "getElementText:28",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-36\"}"
+      ],
+      "result": "getElementText:29",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-37\"}"
+      ],
+      "result": "getElementText:30",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.cssSelector: .ui-state-default",
+        "{\"id\":\"0.4335700059851939-37\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 89
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#noOfAdult, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-39]",
+      "subLogs": [],
+      "duration": 45
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfAdult, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-39",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #noOfAdult",
+        "{\"id\":\"0.4335700059851939-39\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#noOfAdult, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-39]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfAdult, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-39",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #noOfAdult",
+        "{\"id\":\"0.4335700059851939-39\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 39
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfAdult, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-39",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: #noOfAdult",
+        "{\"using\":\"xpath\",\"id\":\"0.4335700059851939-39\",\"value\":\".//option[@value='4' or @lineNo=4 or  @id='4' or contains(.,'4') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-40",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[@value='4' or @lineNo=4 or  @id='4' or contains(.,'4') ]",
+        "{\"id\":\"0.4335700059851939-40\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfAdult, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-39",
+      "subLogs": [],
+      "duration": 12
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: #noOfAdult",
+        "{\"using\":\"xpath\",\"id\":\"0.4335700059851939-39\",\"value\":\".//option[@value='4' or @lineNo=4 or  @id='4' or contains(.,'4') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-40",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//option[@value='4' or @lineNo=4 or  @id='4' or contains(.,'4') ]",
+        "{\"id\":\"0.4335700059851939-40\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 53
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#noOfChild, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-41]",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfChild, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-41",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #noOfChild",
+        "{\"id\":\"0.4335700059851939-41\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#noOfChild, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-41]",
+      "subLogs": [],
+      "duration": 13
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfChild, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-41",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #noOfChild",
+        "{\"id\":\"0.4335700059851939-41\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfChild, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-41",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: #noOfChild",
+        "{\"using\":\"xpath\",\"id\":\"0.4335700059851939-41\",\"value\":\".//option[@value='2' or @lineNo=2 or  @id='2' or contains(.,'2') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-42",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[@value='2' or @lineNo=2 or  @id='2' or contains(.,'2') ]",
+        "{\"id\":\"0.4335700059851939-42\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfChild, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-41",
+      "subLogs": [],
+      "duration": 16
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: #noOfChild",
+        "{\"using\":\"xpath\",\"id\":\"0.4335700059851939-41\",\"value\":\".//option[@value='2' or @lineNo=2 or  @id='2' or contains(.,'2') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-42",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//option[@value='2' or @lineNo=2 or  @id='2' or contains(.,'2') ]",
+        "{\"id\":\"0.4335700059851939-42\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 51
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#noOfInfant, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-43]",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfInfant, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-43",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #noOfInfant",
+        "{\"id\":\"0.4335700059851939-43\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#noOfInfant, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-43]",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfInfant, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-43",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #noOfInfant",
+        "{\"id\":\"0.4335700059851939-43\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfInfant, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-43",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: #noOfInfant",
+        "{\"using\":\"xpath\",\"id\":\"0.4335700059851939-43\",\"value\":\".//option[@value='1' or @lineNo=1 or  @id='1' or contains(.,'1') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-44",
+      "subLogs": [],
+      "duration": 44
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[@value='1' or @lineNo=1 or  @id='1' or contains(.,'1') ]",
+        "{\"id\":\"0.4335700059851939-44\"}"
+      ],
+      "result": "isElementSelected:false",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#noOfInfant, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-43",
+      "subLogs": [],
+      "duration": 15
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: #noOfInfant",
+        "{\"using\":\"xpath\",\"id\":\"0.4335700059851939-43\",\"value\":\".//option[@value='1' or @lineNo=1 or  @id='1' or contains(.,'1') ]\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-44",
+      "subLogs": [],
+      "duration": 14
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: .//option[@value='1' or @lineNo=1 or  @id='1' or contains(.,'1') ]",
+        "{\"id\":\"0.4335700059851939-44\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 64
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#classType, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-45]",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#classType, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-45",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #classType",
+        "{\"id\":\"0.4335700059851939-45\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 109
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=#classType, using=css selector}"
+      ],
+      "result": "[id: 0.4335700059851939-45]",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#classType, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-45",
+      "subLogs": [],
+      "duration": 20
+    },
+    {
+      "commandName": "isElementDisplayed",
+      "args": [
+        "By.cssSelector: #classType",
+        "{\"id\":\"0.4335700059851939-45\"}"
+      ],
+      "result": "isElementDisplayed:true",
+      "subLogs": [],
+      "duration": 18
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=#classType, using=css selector}"
+      ],
+      "result": "id: 0.4335700059851939-45",
+      "subLogs": [],
+      "duration": 17
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: #classType",
+        "{\"using\":\"xpath\",\"id\":\"0.4335700059851939-45\",\"value\":\".//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='ECONOMY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='ECONOMY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='ECONOMY']\"}"
+      ],
+      "result": "findChildElement:id: 0.4335700059851939-46",
+      "subLogs": [],
+      "duration": 82
+    },
+    {
+      "commandName": "isElementSelected",
+      "args": [
+        "By.xpath: .//option[translate(.,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='ECONOMY' or translate(@value,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='ECONOMY' or translate(@id,'abcdefghijklmnopqrstuvwxyz','ABCDEFGHIJKLMNOPQRSTUVWXYZ')='ECONOMY']",
+        "{\"id\":\"0.4335700059851939-46\"}"
+      ],
+      "result": "isElementSelected:true",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "findElement",
+      "args": [
+        "{value=//*[contains(@class,'srchbtn')], using=xpath}"
+      ],
+      "result": "id: 0.4335700059851939-47",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "clickElement",
+      "args": [
+        "By.xpath: //*[contains(@class,'srchbtn')]",
+        "{\"id\":\"0.4335700059851939-47\"}"
+      ],
+      "result": "clickElement:null",
+      "subLogs": [],
+      "duration": 12957
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.flightcont, using=css selector}"
+      ],
+      "result": "[id: 0.6176229538022489-1, id: 0.6176229538022489-2, id: 0.6176229538022489-3, id: 0.6176229538022489-4, id: 0.6176229538022489-5, id: 0.6176229538022489-6, id: 0.6176229538022489-7, id: 0.6176229538022489-8, id: 0.6176229538022489-9, id: 0.6176229538022489-10, id: 0.6176229538022489-11, id: 0.6176229538022489-12, id: 0.6176229538022489-13, id: 0.6176229538022489-14, id: 0.6176229538022489-15, id: 0.6176229538022489-16, id: 0.6176229538022489-17, id: 0.6176229538022489-18, id: 0.6176229538022489-19, id: 0.6176229538022489-20, id: 0.6176229538022489-21, id: 0.6176229538022489-22, id: 0.6176229538022489-23, id: 0.6176229538022489-24]",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findElements",
+      "args": [
+        "{value=.flightcont, using=css selector}"
+      ],
+      "result": "[id: 0.6176229538022489-1, id: 0.6176229538022489-2, id: 0.6176229538022489-3, id: 0.6176229538022489-4, id: 0.6176229538022489-5, id: 0.6176229538022489-6, id: 0.6176229538022489-7, id: 0.6176229538022489-8, id: 0.6176229538022489-9, id: 0.6176229538022489-10, id: 0.6176229538022489-11, id: 0.6176229538022489-12, id: 0.6176229538022489-13, id: 0.6176229538022489-14, id: 0.6176229538022489-15, id: 0.6176229538022489-16, id: 0.6176229538022489-17, id: 0.6176229538022489-18, id: 0.6176229538022489-19, id: 0.6176229538022489-20, id: 0.6176229538022489-21, id: 0.6176229538022489-22, id: 0.6176229538022489-23, id: 0.6176229538022489-24]",
+      "subLogs": [],
+      "duration": 19
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-1\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-25",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-25\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-1\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-26",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-26\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 52
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-1\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-27",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-27\"}"
+      ],
+      "result": "getElementText: 18:35",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-1\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-28",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-28\"}"
+      ],
+      "result": "getElementText: PNQ",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-1\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-29",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-29\"}"
+      ],
+      "result": "getElementText: 20:20",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-1\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-30",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-30\"}"
+      ],
+      "result": "getElementText: 1h 45m",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-1\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-31",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-31\"}"
+      ],
+      "result": "getElementText:50360",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-2\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-32",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-32\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-2\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-33",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-33\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-2\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-34",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-34\"}"
+      ],
+      "result": "getElementText: 09:55",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-2\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-35",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-35\"}"
+      ],
+      "result": "getElementText: PNQ",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-2\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-36",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-36\"}"
+      ],
+      "result": "getElementText: 11:15",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-2\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-37",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-37\"}"
+      ],
+      "result": "getElementText: 1h 20m",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-2\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-38",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-38\"}"
+      ],
+      "result": "getElementText:50878",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-3\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-39",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-39\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-3\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-40",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-40\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-3\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-41",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-41\"}"
+      ],
+      "result": "getElementText: 22:00",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-3\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-42",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-42\"}"
+      ],
+      "result": "getElementText: BOM",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-3\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-43",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-43\"}"
+      ],
+      "result": "getElementText: 23:25",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-3\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-44",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-44\"}"
+      ],
+      "result": "getElementText: 1h 25m",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-3\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-45",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-45\"}"
+      ],
+      "result": "getElementText:139537",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-4\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-46",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-46\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-4\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-47",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-47\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-4\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-48",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-48\"}"
+      ],
+      "result": "getElementText: 20:55",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-4\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-49",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-49\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-4\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-50",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-50\"}"
+      ],
+      "result": "getElementText: 23:10",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-4\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-51",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-51\"}"
+      ],
+      "result": "getElementText: 2h 15m",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-4\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-52",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-52\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-5\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-53",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-53\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-5\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-54",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-54\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-5\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-55",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-55\"}"
+      ],
+      "result": "getElementText: 20:55",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-5\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-56",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-56\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-5\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-57",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-57\"}"
+      ],
+      "result": "getElementText: 23:10",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-5\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-58",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-58\"}"
+      ],
+      "result": "getElementText: 2h 15m",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-5\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-59",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-59\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-6\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-60",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-60\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 47
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-6\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-61",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-61\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-6\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-62",
+      "subLogs": [],
+      "duration": 34
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-62\"}"
+      ],
+      "result": "getElementText: 18:55",
+      "subLogs": [],
+      "duration": 38
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-6\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-63",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-63\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-6\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-64",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-64\"}"
+      ],
+      "result": "getElementText: 21:10",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-6\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-65",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-65\"}"
+      ],
+      "result": "getElementText: 2h 15m",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-6\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-66",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-66\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-7\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-67",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-67\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-7\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-68",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-68\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-7\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-69",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-69\"}"
+      ],
+      "result": "getElementText: 16:15",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-7\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-70",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-70\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-7\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-71",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-71\"}"
+      ],
+      "result": "getElementText: 18:25",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-7\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-72",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-72\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-7\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-73",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-73\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-8\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-74",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-74\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-8\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-75",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-75\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-8\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-76",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-76\"}"
+      ],
+      "result": "getElementText: 09:55",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-8\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-77",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-77\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-8\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-78",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-78\"}"
+      ],
+      "result": "getElementText: 12:20",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-8\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-79",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-79\"}"
+      ],
+      "result": "getElementText: 2h 25m",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-8\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-80",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-80\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-9\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-81",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-81\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-9\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-82",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-82\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-9\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-83",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-83\"}"
+      ],
+      "result": "getElementText: 18:55",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-9\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-84",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-84\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-9\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-85",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-85\"}"
+      ],
+      "result": "getElementText: 21:10",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-9\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-86",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-86\"}"
+      ],
+      "result": "getElementText: 2h 15m",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-9\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-87",
+      "subLogs": [],
+      "duration": 41
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-87\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 48
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-10\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-88",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-88\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-10\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-89",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-89\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-10\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-90",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-90\"}"
+      ],
+      "result": "getElementText: 06:35",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-10\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-91",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-91\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-10\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-92",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-92\"}"
+      ],
+      "result": "getElementText: 08:50",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-10\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-93",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-93\"}"
+      ],
+      "result": "getElementText: 2h 15m",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-10\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-94",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-94\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-11\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-95",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-95\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-11\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-96",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-96\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-11\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-97",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-97\"}"
+      ],
+      "result": "getElementText: 16:15",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-11\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-98",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-98\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-11\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-99",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-99\"}"
+      ],
+      "result": "getElementText: 18:25",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-11\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-100",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-100\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-11\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-101",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-101\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-12\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-102",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-102\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-12\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-103",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-103\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-12\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-104",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-104\"}"
+      ],
+      "result": "getElementText: 20:55",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-12\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-105",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-105\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-12\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-106",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-106\"}"
+      ],
+      "result": "getElementText: 23:10",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-12\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-107",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-107\"}"
+      ],
+      "result": "getElementText: 2h 15m",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-12\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-108",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-108\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-13\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-109",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-109\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-13\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-110",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-110\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-13\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-111",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-111\"}"
+      ],
+      "result": "getElementText: 09:55",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-13\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-112",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-112\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-13\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-113",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-113\"}"
+      ],
+      "result": "getElementText: 12:20",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-13\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-114",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-114\"}"
+      ],
+      "result": "getElementText: 2h 25m",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-13\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-115",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-115\"}"
+      ],
+      "result": "getElementText:157223",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-14\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-116",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-116\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-14\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-117",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-117\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-14\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-118",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-118\"}"
+      ],
+      "result": "getElementText: 06:35",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-14\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-119",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-119\"}"
+      ],
+      "result": "getElementText: DEL",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-14\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-120",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-120\"}"
+      ],
+      "result": "getElementText: 08:50",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-14\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-121",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-121\"}"
+      ],
+      "result": "getElementText: 2h 15m",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-14\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-122",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-122\"}"
+      ],
+      "result": "getElementText:193463",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-15\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-123",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-123\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-15\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-124",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-124\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-15\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-125",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-125\"}"
+      ],
+      "result": "getElementText: 06:30",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-15\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-126",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-126\"}"
+      ],
+      "result": "getElementText: BLR",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-15\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-127",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-127\"}"
+      ],
+      "result": "getElementText: 07:35",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-15\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-128",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-128\"}"
+      ],
+      "result": "getElementText: 1h 5m",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-15\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-129",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-129\"}"
+      ],
+      "result": "getElementText:221897",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-16\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-130",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-130\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 42
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-16\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-131",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-131\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-16\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-132",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-132\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-16\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-133",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-133\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-16\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-134",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-134\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-16\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-135",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-135\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-16\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-136",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-136\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-17\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-137",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-137\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-17\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-138",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-138\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-17\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-139",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-139\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-17\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-140",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-140\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-17\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-141",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-141\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-17\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-142",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-142\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-17\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-143",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-143\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 43
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-18\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-144",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-144\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-18\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-145",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-145\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-18\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-146",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-146\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-18\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-147",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-147\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-18\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-148",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-148\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-18\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-149",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-149\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-18\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-150",
+      "subLogs": [],
+      "duration": 50
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-150\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-19\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-151",
+      "subLogs": [],
+      "duration": 37
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-151\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-19\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-152",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-152\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-19\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-153",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-153\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-19\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-154",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-154\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-19\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-155",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-155\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-19\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-156",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-156\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 35
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-19\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-157",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-157\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-20\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-158",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-158\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 36
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-20\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-159",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-159\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-20\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-160",
+      "subLogs": [],
+      "duration": 21
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-160\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-20\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-161",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-161\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 30
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-20\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-162",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-162\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-20\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-163",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-163\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-20\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-164",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-164\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-21\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-165",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-165\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-21\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-166",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-166\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-21\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-167",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-167\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-21\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-168",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-168\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-21\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-169",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-169\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-21\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-170",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-170\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-21\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-171",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-171\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-22\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-172",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-172\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-22\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-173",
+      "subLogs": [],
+      "duration": 22
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-173\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-22\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-174",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-174\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 29
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-22\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-175",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-175\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-22\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-176",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-176\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-22\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-177",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-177\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-22\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-178",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-178\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-23\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-179",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-179\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 40
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-23\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-180",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-180\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-23\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-181",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-181\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 28
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-23\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-182",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-182\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-23\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-183",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-183\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 31
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-23\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-184",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-184\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-23\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-185",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-185\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 33
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-24\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(1)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-186",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(1)",
+        "{\"id\":\"0.6176229538022489-186\"}"
+      ],
+      "result": "getElementText:Air India",
+      "subLogs": [],
+      "duration": 26
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-24\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(2)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-187",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(2)",
+        "{\"id\":\"0.6176229538022489-187\"}"
+      ],
+      "result": "getElementText: HYD",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-24\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(3)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-188",
+      "subLogs": [],
+      "duration": 24
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(3)",
+        "{\"id\":\"0.6176229538022489-188\"}"
+      ],
+      "result": "getElementText: 06:00",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-24\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(4)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-189",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(4)",
+        "{\"id\":\"0.6176229538022489-189\"}"
+      ],
+      "result": "getElementText: CCU",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-24\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(5)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-190",
+      "subLogs": [],
+      "duration": 23
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(5)",
+        "{\"id\":\"0.6176229538022489-190\"}"
+      ],
+      "result": "getElementText: 08:10",
+      "subLogs": [],
+      "duration": 32
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-24\",\"value\":\".flightcont>tbody>tr:nth-child(1)>td:nth-child(6)\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-191",
+      "subLogs": [],
+      "duration": 27
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .flightcont>tbody>tr:nth-child(1)>td:nth-child(6)",
+        "{\"id\":\"0.6176229538022489-191\"}"
+      ],
+      "result": "getElementText: 2h 10m",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "findChildElement",
+      "args": [
+        "By.cssSelector: .flightcont",
+        "{\"using\":\"css selector\",\"id\":\"0.6176229538022489-24\",\"value\":\".onewayprice\"}"
+      ],
+      "result": "findChildElement:id: 0.6176229538022489-192",
+      "subLogs": [],
+      "duration": 25
+    },
+    {
+      "commandName": "getElementText",
+      "args": [
+        "By.cssSelector: .onewayprice",
+        "{\"id\":\"0.6176229538022489-192\"}"
+      ],
+      "result": "getElementText:242617",
+      "subLogs": [],
+      "duration": 35
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "\nExpected: equalToIgnoringCase(\"IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight\")\n     Actual: was IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight",
+      "type": "Pass",
+      "screenshot": "../img/FillFormIN_Railways_1wp8etamgnef953281.png",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Bean Details : [homepanel : LTC,fromPlace : Hyderabad,fromPlaceInt : Hyderabad,toPlaceInt : New York,toPlace : pune,calenderInt : 30 July 2017,calender : 30 July 2017,adults : 4,adultsInt : 2,child : 2,childInt : 2,infants : 1,infantsInt : 1,classtype : Economy,classtypeInt : Business,airlines : Jet Airways,Vistara Airline, Air India, Spice Jet, Indigo, Go, Air Asia,searchBtn : Search,IntsearchBtn : Search]",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Number of flights available :24",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Details of Flight :By.cssSelector: .flightcont",
+      "type": "Info",
+      "screenshot": "",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ]
+}

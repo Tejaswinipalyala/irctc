@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: equalToIgnoringCase("IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight")
+     Actual: was IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight <a href="../img/FillFormIN_Railways_1wp8etamgnef953281.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Bean Details : [homepanel : LTC,fromPlace : Hyderabad,fromPlaceInt : Hyderabad,toPlaceInt : New York,toPlace : pune,calenderInt : 30 July 2017,calender : 30 July 2017,adults : 4,adultsInt : 2,child : 2,childInt : 2,infants : 1,infantsInt : 1,classtype : Economy,classtypeInt : Business,airlines : Jet Airways,Vistara Airline, Air India, Spice Jet, Indigo, Go, Air Asia,searchBtn : Search,IntsearchBtn : Search]</div><div  class="info"><span class="info-label">I </span>Number of flights available :24</div><div  class="info"><span class="info-label">I </span>Details of Flight :By.cssSelector: .flightcont</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="34392" started-at="2017-07-14T10:17:23Z" finished-at="2017-07-14T10:17:57Z">
+    <groups>
+    </groups>
+    <test name="java Test" duration-ms="34392" started-at="2017-07-14T10:17:23Z" finished-at="2017-07-14T10:17:57Z">
+      <class name="com.irctc.test.IRCTCSFillForm">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="setupSuit" is-config="true" duration-ms="22" started-at="2017-07-14T15:47:23Z" finished-at="2017-07-14T15:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="setupTest" is-config="true" duration-ms="2" started-at="2017-07-14T15:47:23Z" finished-at="2017-07-14T15:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="setup" is-config="true" duration-ms="2" started-at="2017-07-14T15:47:23Z" finished-at="2017-07-14T15:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-07-14T15:47:23Z" finished-at="2017-07-14T15:47:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.irctc.test.IRCTCSFillForm.FillFormIN_Railways()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="PASS" signature="FillFormIN_Railways()[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="FillFormIN_Railways" duration-ms="34102" started-at="2017-07-14T15:47:23Z" description="fill a form in irctc railways page" finished-at="2017-07-14T15:47:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: equalToIgnoringCase("IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight")
+     Actual: was IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight <a href="../img/FillFormIN_Railways_1wp8etamgnef953281.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Bean Details : [homepanel : LTC,fromPlace : Hyderabad,fromPlaceInt : Hyderabad,toPlaceInt : New York,toPlace : pune,calenderInt : 30 July 2017,calender : 30 July 2017,adults : 4,adultsInt : 2,child : 2,childInt : 2,infants : 1,infantsInt : 1,classtype : Economy,classtypeInt : Business,airlines : Jet Airways,Vistara Airline, Air India, Spice Jet, Indigo, Go, Air Asia,searchBtn : Search,IntsearchBtn : Search]</div><div  class="info"><span class="info-label">I </span>Number of flights available :24</div><div  class="info"><span class="info-label">I </span>Details of Flight :By.cssSelector: .flightcont</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- FillFormIN_Railways -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-14T15:47:57Z" finished-at="2017-07-14T15:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=FillFormIN_Railways status=SUCCESS method=IRCTCSFillForm.FillFormIN_Railways()[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9] output=<div style="display:block;margin-left:10px;"><div  class="pass"><span class="pass-label">P </span>
+Expected: equalToIgnoringCase("IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight")
+     Actual: was IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight <a href="../img/FillFormIN_Railways_1wp8etamgnef953281.png" target="_blank">[View Screenshot]</a> </div><div  class="info"><span class="info-label">I </span>Bean Details : [homepanel : LTC,fromPlace : Hyderabad,fromPlaceInt : Hyderabad,toPlaceInt : New York,toPlace : pune,calenderInt : 30 July 2017,calender : 30 July 2017,adults : 4,adultsInt : 2,child : 2,childInt : 2,infants : 1,infantsInt : 1,classtype : Economy,classtypeInt : Business,airlines : Jet Airways,Vistara Airline, Air India, Spice Jet, Indigo, Go, Air Asia,searchBtn : Search,IntsearchBtn : Search]</div><div  class="info"><span class="info-label">I </span>Number of flights available :24</div><div  class="info"><span class="info-label">I </span>Details of Flight :By.cssSelector: .flightcont</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-14T15:47:57Z" finished-at="2017-07-14T15:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="afterTest" is-config="true" duration-ms="236" started-at="2017-07-14T15:47:57Z" finished-at="2017-07-14T15:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.irctc.test.IRCTCSFillForm@2173f6d9]" name="afterSuit" is-config="true" duration-ms="3" started-at="2017-07-14T15:47:57Z" finished-at="2017-07-14T15:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@709ba3fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.irctc.test.IRCTCSFillForm -->
+    </test> <!-- java Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

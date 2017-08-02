@@ -1,0 +1,20 @@
+txtbx.from.homepage = {\"locator\":\"css=#origin\",\"desc\":\"textbox-From\"}
+txtbx.to.homepage = {\"locator\":\"css=#destination\",\"desc\":\"textbox-To\"}
+calender.homepage = {\"locator\":\"css=#departDate\",\"desc\":\"textbox-Calender\"}
+adult.dropdown.homepage = {\"locator\":\"css=#noOfAdult\",\"desc\":\"dropdpen-No.\"}
+child.dropdown.homepage = {\"locator\":\"css=#noOfChild\",\"desc\":\"dropdpen-No. child\"}
+infant.dropdown.homepage = {\"locator\":\"css=#noOfInfant\",\"desc\":\"dropdpen-No. infant\"}
+classtype.dropdown.homepage = {\"locator\":\"css=#classType\",\"desc\":\"dropdpen-No. classtype\"}
+airline.dropdown.homepage = {\"locator\":\"css=select[name='airlinePreference']\",\"desc\":\"dropdpen-No. airlines\"}
+search.btn.homepage = {\"locator\":\"xpath=//*[contains(@class,'srchbtn')]\",\"desc\":\"button-search\"}
+hometab.btn.homepage = {\"locator\":\"xpath=//a[text ()='%s']\",\"desc\":\"button-tab\"}
+caleder.img.homepage = {\"locator\":\"xpath=//input[@id='departDate']/following-sibling::img\",\"desc\":\"img-calender\"}
+Inttxtbx.from.homepage = {\"locator\":\"css=#originInt\",\"desc\":\"textbox-FromInt\"}
+Inttxtbx.to.homepage = {\"locator\":\"css=#destinationInt\",\"desc\":\"textbox-ToInt\"}
+Intcaleder.img.homepage = {\"locator\":\"xpath=//input[@id='departDateInt']/following-sibling::img\",\"desc\":\"img-calenderInt\"}
+Intadult.dropdown.homepage = {\"locator\":\"css=select[name='noOfAdultsInt']\",\"desc\":\"dropdpen-No.adultInt\"}
+Intchild.dropdown.homepage = {\"locator\":\"css=select[name='noOfChildrenInt']\",\"desc\":\"dropdpen-No. childInt\"}
+Intinfant.dropdown.homepage = {\"locator\":\"css=select[name='noOfInfantsInt']\",\"desc\":\"dropdpen-No. infantInt\"}
+Intclasstype.dropdown.homepage = {\"locator\":\"css=select[name='classTypeInt']\",\"desc\":\"dropdpen-No. classtypeInt\"}
+Intsearch.btn.homepage = {\"locator\":\"xpath=//*[contains(@name,'submitValInt')]/following-sibling::*[contains(@class,'srchbtn')]\",\"desc\":\"Intbutton search\"}
+radiobtn.triptype.homepage = {\"locator\":\"xpath=//input[@value='%s']\",\"desc\":\"radiobutton-triptype\"}

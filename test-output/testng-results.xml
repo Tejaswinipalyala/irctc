@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given User opens the IRCTC home page <a href="img/IRCTC_19u6xal15tcqg63373.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Non-null value required by IsEqualIgnoringCase()</div></div><div  class="teststep"><span class="teststep-label">T </span>Then User Verifiy the page</div><div  class="teststep"><span class="teststep-label">T </span>When User Fill the Flight form</div><div  class="teststep"><span class="teststep-label">T </span>And User hit the submit button</div><div  class="teststep"><span class="teststep-label">T </span>Then User will get the information of all the available flights</div></div>]]>
+    </line>
+  </reporter-output>
+  <suite name="QAS Demo" duration-ms="7704" started-at="2017-07-14T10:24:37Z" finished-at="2017-07-14T10:24:45Z">
+    <groups>
+      <group name="SMOKE">
+        <method signature="scenarios.suite1.bdd.IRCTC()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" name="IRCTC" class="com.qmetry.qaf.automation.step.client.Scenario"/>
+      </group> <!-- SMOKE -->
+    </groups>
+    <test name="BDD Test" duration-ms="7704" started-at="2017-07-14T10:24:37Z" finished-at="2017-07-14T10:24:45Z">
+      <class name="com.qmetry.qaf.automation.step.client.Scenario">
+        <test-method status="PASS" signature="setupSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="setupSuit" is-config="true" duration-ms="17" started-at="2017-07-14T15:54:37Z" finished-at="2017-07-14T15:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuit -->
+        <test-method status="PASS" signature="setupTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="setupTest" is-config="true" duration-ms="27" started-at="2017-07-14T15:54:37Z" finished-at="2017-07-14T15:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="setup" is-config="true" duration-ms="1" started-at="2017-07-14T15:54:37Z" finished-at="2017-07-14T15:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setupMethod(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="setupMethod" is-config="true" duration-ms="1" started-at="2017-07-14T15:54:37Z" finished-at="2017-07-14T15:54:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qmetry.qaf.automation.step.client.Scenario.scenario()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethod -->
+        <test-method status="FAIL" signature="IRCTC()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="IRCTC" duration-ms="7043" started-at="2017-07-14T15:54:37Z" description="Sample Test Scenario" finished-at="2017-07-14T15:54:44Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Non-null value required by IsEqualIgnoringCase()]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Non-null value required by IsEqualIgnoringCase()
+	at .Given User opens the IRCTC home page(scenarios/suite1.bdd:6)
+	at org.hamcrest.text.IsEqualIgnoringCase.<init>(IsEqualIgnoringCase.java:22)
+	at org.hamcrest.text.IsEqualIgnoringCase.equalToIgnoringCase(IsEqualIgnoringCase.java:56)
+	at org.hamcrest.Matchers.equalToIgnoringCase(Matchers.java:1215)
+	at com.irctc.pages.HomeTestPage.waitForPageToLoad(HomeTestPage.java:165)
+	at com.qmetry.qaf.automation.ui.AbstractTestPage.launchPage(AbstractTestPage.java:137)
+	at com.irctc.steps.StepBackLog.userOpensIRCTC(StepBackLog.java:19)
+	at com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)
+	at com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)
+	at com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)
+	at com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)
+	at com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given User opens the IRCTC home page <a href="img/IRCTC_19u6xal15tcqg63373.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Non-null value required by IsEqualIgnoringCase()</div></div><div  class="teststep"><span class="teststep-label">T </span>Then User Verifiy the page</div><div  class="teststep"><span class="teststep-label">T </span>When User Fill the Flight form</div><div  class="teststep"><span class="teststep-label">T </span>And User hit the submit button</div><div  class="teststep"><span class="teststep-label">T </span>Then User will get the information of all the available flights</div></div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IRCTC -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-07-14T15:54:45Z" finished-at="2017-07-14T15:54:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=IRCTC status=FAILURE method=scenarios.suite1.bdd.IRCTC()[pri:1000, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8] output=<div style="display:block;margin-left:10px;"><div  class="teststepfail"><span class="teststepfail-label">T </span>Given User opens the IRCTC home page <a href="img/IRCTC_19u6xal15tcqg63373.png" target="_blank">[View Screenshot]</a> </div><div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Non-null value required by IsEqualIgnoringCase()</div></div><div  class="teststep"><span class="teststep-label">T </span>Then User Verifiy the page</div><div  class="teststep"><span class="teststep-label">T </span>When User Fill the Flight form</div><div  class="teststep"><span class="teststep-label">T </span>And User hit the submit button</div><div  class="teststep"><span class="teststep-label">T </span>Then User will get the information of all the available flights</div></div>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="afterClass" is-config="true" duration-ms="1" started-at="2017-07-14T15:54:45Z" finished-at="2017-07-14T15:54:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="afterTest" is-config="true" duration-ms="102" started-at="2017-07-14T15:54:45Z" finished-at="2017-07-14T15:54:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuit(org.testng.ITestContext)[pri:0, instance:com.qmetry.qaf.automation.step.client.Scenario@3e8]" test-instance-name="IRCTC" name="afterSuit" is-config="true" duration-ms="2" started-at="2017-07-14T15:54:45Z" finished-at="2017-07-14T15:54:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@61dd025]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- com.qmetry.qaf.automation.step.client.Scenario -->
+    </test> <!-- BDD Test -->
+  </suite> <!-- QAS Demo -->
+</testng-results>

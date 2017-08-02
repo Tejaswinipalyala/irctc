@@ -1,0 +1,124 @@
+{
+  "seleniumLog": [
+    {
+      "commandName": "userOpensIRCTC",
+      "args": [
+        "[]"
+      ],
+      "result": "fail",
+      "subLogs": [
+        {
+          "commandName": "get",
+          "args": [
+            "{url=https://www.air.irctc.co.in/IndianRailways/}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 2930
+        },
+        {
+          "commandName": "maximizeWindow",
+          "args": [
+            "{windowHandle=current}"
+          ],
+          "result": "null",
+          "subLogs": [],
+          "duration": 1195
+        },
+        {
+          "commandName": "getTitle",
+          "args": [
+            "{}"
+          ],
+          "result": "IRCTC, Flight Ticket, Air Ticket, Cheap Flight, Low Fare Flight",
+          "subLogs": [],
+          "duration": 11
+        }
+      ],
+      "duration": -1
+    },
+    {
+      "commandName": "Then User Verifiy the page",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "When User Fill the Flight form",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "And User hit the submit button",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    },
+    {
+      "commandName": "Then User will get the information of all the available flights",
+      "args": [
+        "[]"
+      ],
+      "result": "Not Run",
+      "subLogs": [],
+      "duration": -1
+    }
+  ],
+  "checkPoints": [
+    {
+      "message": "Given User opens the IRCTC home page",
+      "type": "TestStepFail",
+      "screenshot": "img/IRCTC_19u6xal15tcqg63373.png",
+      "duration": 6777,
+      "threshold": 0,
+      "subCheckPoints": [
+        {
+          "message": "Non-null value required by IsEqualIgnoringCase()",
+          "type": "Fail",
+          "duration": 0,
+          "threshold": 0,
+          "subCheckPoints": []
+        }
+      ]
+    },
+    {
+      "message": "Then User Verifiy the page",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "When User Fill the Flight form",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "And User hit the submit button",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    },
+    {
+      "message": "Then User will get the information of all the available flights",
+      "type": "TestStep",
+      "duration": 0,
+      "threshold": 0,
+      "subCheckPoints": []
+    }
+  ],
+  "errorTrace": "java.lang.IllegalArgumentException: Non-null value required by IsEqualIgnoringCase()\r\n\tat .Given User opens the IRCTC home page(scenarios/suite1.bdd:6)\r\n\tat org.hamcrest.text.IsEqualIgnoringCase.<init>(IsEqualIgnoringCase.java:22)\r\n\tat org.hamcrest.text.IsEqualIgnoringCase.equalToIgnoringCase(IsEqualIgnoringCase.java:56)\r\n\tat org.hamcrest.Matchers.equalToIgnoringCase(Matchers.java:1215)\r\n\tat com.irctc.pages.HomeTestPage.waitForPageToLoad(HomeTestPage.java:165)\r\n\tat com.qmetry.qaf.automation.ui.AbstractTestPage.launchPage(AbstractTestPage.java:137)\r\n\tat com.irctc.steps.StepBackLog.userOpensIRCTC(StepBackLog.java:19)\r\n\tat com.qmetry.qaf.automation.step.JavaStep.doExecute(JavaStep.java:160)\r\n\tat com.qmetry.qaf.automation.step.BaseTestStep.execute(BaseTestStep.java:149)\r\n\tat com.qmetry.qaf.automation.step.StringTestStep.execute(StringTestStep.java:134)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.execute(Scenario.java:167)\r\n\tat com.qmetry.qaf.automation.step.client.Scenario.scenario(Scenario.java:219)\r\n"
+}

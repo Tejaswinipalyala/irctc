@@ -1,0 +1,6 @@
+comp.calender.first = {\"locator\":\"css=[class='ui-datepicker-group ui-datepicker-group-first']\"}
+comp.arrow.previous = {\"locator\":\"xpath=//*[@title='Prev']\"}
+comp.arrow.next = {\"locator\":\"xpath=//*[@title='Next']\"}
+comp.date.pick = {\"locator\":\"css=.ui-state-default\"}
+comp.month.pick = {\"locator\":\"css=.ui-datepicker-month\"}
+comp.year.pick = {\"locator\":\"css=.ui-datepicker-year\"}
